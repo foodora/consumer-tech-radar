@@ -137,12 +137,13 @@ class Radar
   # parse tab-separated data (exported from google doc)
   def self.parse(path)
     blips = {}
-    open(path).each do |line|
-      cols = line.split("\t")
-      name, quadrant, score, skip = cols[0], cols[1], cols[3], cols[6]
+    file = File.read(path)
+    JSON.parse(file).each do |row|
+      name, quadrant, score, skip = row["name"], row["quadrant"], row["rating"], row["skip"]
+
       raise "PLEASE DELETE HEADER LINE: #{path}" if score == "AVG"
       next if skip == "TRUE"
-      next if score.nil? || score.strip.empty?
+      next if score.nil?
       blip = Blip.new(name, quadrant, score.to_f)
       blips[blip.name] = blip
     end
@@ -150,7 +151,7 @@ class Radar
   end
 end
 
-files = Dir["data/*.tsv"]
+files = Dir["data/*.json"]
 radar = Radar.new(files.pop)
 previous = files.pop
 radar.track_moves(Radar.new(previous)) if previous

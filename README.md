@@ -11,15 +11,9 @@ This repository shares:
 
 ## Cool. How can I make my own?
 
-Create a Google doc with the following columns:
-
-* **Technology** (e.g. "Hystrix")
-* **Quadrant** (Needs to be exactly and at least one of each quadrants: "Platforms & Infrastructure", "Data Mgt", "Languages", "Techniques; Frameworks & Tools")
-* *[optional] Comments (e.g. "lib for fault tolerance")* 
-* **Score** as a float between 2.0 and -2.0 (e.g. "1.8")
-* *[optional] Number of votes, for internal bookkeeping*
-* *[optional] Consensus score, for internal bookkeeping*
-* **Skip** &mdash; set to true if entry should not be visualized on chart
+* Add a new json file in the data folder
+* (Best copy the most recent one)
+* Add all tech stack components including quadrant and score information
 
 Then follow the instructions below.
 

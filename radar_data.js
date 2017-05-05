@@ -44,20 +44,12 @@ var radar_data = [
     "color" : "#8FA227",
     "items" : [
   {
-    "name": "Symfony 3.2",
+    "name": "Symfony2",
     "pc": {
-      "r": 58,
-      "t": 152
+      "r": 326,
+      "t": 142
     },
-    "movement": "t"
-  },
-  {
-    "name": "Symfony 2",
-    "pc": {
-      "r": 350,
-      "t": 94
-    },
-    "movement": "t"
+    "movement": "c"
   }
 ]
   },
@@ -70,10 +62,10 @@ var radar_data = [
   {
     "name": "AWS S3",
     "pc": {
-      "r": 97,
-      "t": 10
+      "r": 120,
+      "t": 23
     },
-    "movement": "t"
+    "movement": "c"
   }
 ]
   },
@@ -86,10 +78,10 @@ var radar_data = [
   {
     "name": "Puppet",
     "pc": {
-      "r": 351,
-      "t": 184
+      "r": 382,
+      "t": 240
     },
-    "movement": "t"
+    "movement": "c"
   }
 ]
   },
@@ -100,20 +92,20 @@ var radar_data = [
     "top" :   (h/2 + 38),
     "items" : [
   {
-    "name": "PHP7",
+    "name": "PHP7.1",
     "pc": {
-      "r": 113,
-      "t": 345
+      "r": 104,
+      "t": 280
     },
-    "movement": "t"
+    "movement": "c"
   },
   {
     "name": "PHP5.5",
     "pc": {
-      "r": 368,
-      "t": 354
+      "r": 334,
+      "t": 298
     },
-    "movement": "t"
+    "movement": "c"
   }
 ]
   }

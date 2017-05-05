@@ -1,0 +1,32 @@
+[
+  {
+    "name": "PHP5.5",
+    "quadrant": "Languages",
+    "comment": "Old PHP version",
+    "rating": -2
+  },
+  {
+    "name": "PHP7.1",
+    "quadrant": "Languages",
+    "comment": "New PHP version",
+    "rating": 1.8
+  },
+  {
+    "name": "Puppet",
+    "quadrant": "Platforms & Infrastructure",
+    "comment": "",
+    "rating": -2
+  },
+  {
+    "name": "AWS S3",
+    "quadrant": "Data Mgt",
+    "comment": "",
+    "rating": 2
+  },
+  {
+    "name": "Symfony2",
+    "quadrant": "Techniques; Frameworks & Tools",
+    "comment": "Outdated",
+    "rating": -2
+  }
+]
