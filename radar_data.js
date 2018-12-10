@@ -44,18 +44,34 @@ var radar_data = [
     "color" : "#8FA227",
     "items" : [
   {
-    "name": "Symfony 3.2",
+    "name": "NODE.JS",
     "pc": {
-      "r": 58,
+      "r": 93,
       "t": 152
     },
     "movement": "t"
   },
   {
+    "name": "Symfony 3.2",
+    "pc": {
+      "r": 99,
+      "t": 113
+    },
+    "movement": "c"
+  },
+  {
     "name": "Symfony 2",
     "pc": {
-      "r": 350,
-      "t": 94
+      "r": 365,
+      "t": 166
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Symfony 4.1",
+    "pc": {
+      "r": 178,
+      "t": 170
     },
     "movement": "t"
   }
@@ -70,8 +86,40 @@ var radar_data = [
   {
     "name": "AWS S3",
     "pc": {
-      "r": 97,
+      "r": 73,
       "t": 10
+    },
+    "movement": "c"
+  },
+  {
+    "name": "AWS SNS/SQS",
+    "pc": {
+      "r": 57,
+      "t": 75
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Elasticsearch",
+    "pc": {
+      "r": 95,
+      "t": 36
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Redis",
+    "pc": {
+      "r": 99,
+      "t": 23
+    },
+    "movement": "t"
+  },
+  {
+    "name": "RabbitMQ",
+    "pc": {
+      "r": 197,
+      "t": 68
     },
     "movement": "t"
   }
@@ -84,12 +132,44 @@ var radar_data = [
     "color" : "#DC6F1D",
     "items" : [
   {
-    "name": "Puppet",
+    "name": "Docker",
     "pc": {
-      "r": 351,
-      "t": 184
+      "r": 79,
+      "t": 242
     },
     "movement": "t"
+  },
+  {
+    "name": "Kubernetes",
+    "pc": {
+      "r": 60,
+      "t": 229
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Nginx",
+    "pc": {
+      "r": 65,
+      "t": 216
+    },
+    "movement": "t"
+  },
+  {
+    "name": "AWS Lambda",
+    "pc": {
+      "r": 296,
+      "t": 216
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Puppet",
+    "pc": {
+      "r": 345,
+      "t": 192
+    },
+    "movement": "c"
   }
 ]
   },
@@ -100,20 +180,52 @@ var radar_data = [
     "top" :   (h/2 + 38),
     "items" : [
   {
+    "name": "Go",
+    "pc": {
+      "r": 52,
+      "t": 293
+    },
+    "movement": "t"
+  },
+  {
+    "name": "JavaScript",
+    "pc": {
+      "r": 85,
+      "t": 306
+    },
+    "movement": "t"
+  },
+  {
+    "name": "OpenAPI (Swagger)",
+    "pc": {
+      "r": 61,
+      "t": 332
+    },
+    "movement": "t"
+  },
+  {
     "name": "PHP7",
     "pc": {
-      "r": 113,
+      "r": 84,
       "t": 345
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Python",
+    "pc": {
+      "r": 110,
+      "t": 319
     },
     "movement": "t"
   },
   {
     "name": "PHP5.5",
     "pc": {
-      "r": 368,
-      "t": 354
+      "r": 341,
+      "t": 298
     },
-    "movement": "t"
+    "movement": "c"
   }
 ]
   }
